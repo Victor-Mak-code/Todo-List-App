@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet"href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+      integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+      crossorigin="anonymous"/>
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&family=Open+Sans:wght@500;600;700&display=swap" rel="stylesheet">
+    <title>TODO LIST APP</title>
+</head>
+<body>
+    
+  
+
+    <div class="main-section">
+
+        <!--- header section -->
+        <header class="header">
+            <div class="toggle">
+                <i class="toggle-icon"></i>
+            </div>
+            <h1 class="header-primary"> </h1>
+            <span class="header-secondary"></span>
+          
+        </header>
+
+       <!---- Add Task Input Box-->
+        <div class="task-inputBox">
+            <input type="text" class="input-field" placeholder="Start Adding Tasks....">
+            <label for="" class="task-err-msg" id="msg"></label>
+            <button class="btn">Add Task</button>
+        </div>
+
+
+        <!------Main  section --------->
+        <main class="main">
+
+            <div class="add__task--icon">
+                <a href="#" target="_blank" class="new-task-btn"><i class="fas fa-plus"><span> New Task</span></i></a>
+            </div>
+
+    
+              <div class="current-task" id="task-0">
+                <!-- <h3 class="task-values"> <span class="icon"><i class="fa fa-times" aria-hidden="true"></i></span></h3> -->
+            </div> 
+
+            <!-- <div class="current-task" id="task-1">
+                <h3 class="task-values">Reading New Books <span class="icon"><i class="fa fa-times" aria-hidden="true"></i></span></h3>
+                
+            </div> -->
+
+
+
+        </main>
+        
+    </div>
+
+
+
+    <div class="popup-box">
+        <div class="pop-up-content">
+            <h2 class="header-primary1"><span class="date">Welcome,</span> Create New Tasks </h2>
+            <div class="popup-text-fields">
+                <input type="text" class="TodoName" id="TodoName" placeholder="NAME OR USERNAME">
+                <label for=""  id="label"></label>
+            </div>
+
+            <div class="popup-text-fields">
+                <input type="text" class="TodoName" id="userName" placeholder="TODO LIST NAME" >
+                <label for=""  id="label"></label>
+            </div>
+            
+            <div class="button">
+                <button class="btn create-task-btn">Create Task</button>
+            </div>
+
+           <div class="signature">
+               <p>App Built By <span>Victor Mak</span></p>
+           </div>
+           
+        </div>
+    </div>
+   
+
+    <script src="app.js"></script>
+</body>
+</html>
